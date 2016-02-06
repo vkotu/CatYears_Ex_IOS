@@ -14,6 +14,7 @@
 		E1579CE11C65609B000AF5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1579CDF1C65609B000AF5A3 /* LaunchScreen.storyboard */; };
 		E1579CEC1C65609B000AF5A3 /* CatYears_Ex_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1579CEB1C65609B000AF5A3 /* CatYears_Ex_IOSTests.swift */; };
 		E1579CF71C65609B000AF5A3 /* CatYears_Ex_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1579CF61C65609B000AF5A3 /* CatYears_Ex_IOSUITests.swift */; };
+		E1579D051C6565A6000AF5A3 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1579D041C6565A6000AF5A3 /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E1579CF21C65609B000AF5A3 /* CatYears_Ex_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatYears_Ex_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1579CF61C65609B000AF5A3 /* CatYears_Ex_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatYears_Ex_IOSUITests.swift; sourceTree = "<group>"; };
 		E1579CF81C65609B000AF5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1579D041C6565A6000AF5A3 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E1579CD51C65609B000AF5A3 /* CatYears_Ex_IOS */ = {
 			isa = PBXGroup;
 			children = (
+				E1579D041C6565A6000AF5A3 /* cat.jpg */,
 				E1579CD61C65609B000AF5A3 /* AppDelegate.swift */,
 				E1579CD81C65609B000AF5A3 /* ViewController.swift */,
 				E1579CDA1C65609B000AF5A3 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				E1579CE11C65609B000AF5A3 /* LaunchScreen.storyboard in Resources */,
 				E1579CDE1C65609B000AF5A3 /* Assets.xcassets in Resources */,
+				E1579D051C6565A6000AF5A3 /* cat.jpg in Resources */,
 				E1579CDC1C65609B000AF5A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var age: UITextField!
+    @IBOutlet weak var resultLabel: UILabel!
+    @IBAction func findAge(sender: AnyObject) {
+        
+      //  let enteredAge : Int! = Int(age.text!)
+        let enteredAge = Int(age.text!)
+        if enteredAge != nil {
+        let catYears = enteredAge! * 7
+            resultLabel.text = "Your cat is \(catYears) cat years"
+        } else{
+            resultLabel.text = "Please enter a numeric value"
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +36,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+  
 
 }
 
